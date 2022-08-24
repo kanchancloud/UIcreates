@@ -1,0 +1,80 @@
+.Header_Wrap {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /*justify-content: space-around;*/
+}
+
+.search-container button {
+    float: right;
+    padding: 9px 10px;
+    background: #eaa02e;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search-container input {
+    padding: 6px;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    background-color: #f4f4f4;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.Logo {
+    max-width: 150px;
+    max-height: 100px;
+}
+@media only screen and (max-width: 600px) {
+   .Header_Wrap{
+       gap: 20px;
+       flex-wrap: wrap;
+   }
+    .Logo {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .search-container input {
+        padding: 6px;
+        font-size: 12px;
+    }
+    .search-container button {
+        float: right;
+        padding: 8px 10px;
+        background: #eaa02e;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .Header_Wrap{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .Logo {
+        max-width: 120px;
+        max-height: 80px;
+    }
+    .search-container input {
+        padding: 6px;
+        font-size: 16px;
+    }
+    .search-container button {
+        float: right;
+        padding: 11px 10px;
+        background: #eaa02e;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
