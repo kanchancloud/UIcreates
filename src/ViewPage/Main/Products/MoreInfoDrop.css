@@ -1,0 +1,20 @@
+.MoveInfo_Selected_Button_Wrapper{
+    padding: 0px 14px;
+
+}
+.MoveInfo_Selected_Button{
+    padding: 6px 2px 6px 6px;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 765px) {
+    .MoveInfo_Selected_Button{
+        padding: 6px 2px 6px 0px;
+        border-radius: 4px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .MoveInfo_Selected_Button{
+        padding: 6px 0px 6px 0px;
+        border-radius: 4px;
+    }
+}

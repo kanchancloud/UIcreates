@@ -1,0 +1,26 @@
+.section-1 {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.CardText {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+}
+@media only screen and (max-width: 765px) {
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+    }
+}

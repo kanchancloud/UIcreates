@@ -1,0 +1,104 @@
+.PriceList {
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    /*max-width: 81%;*/
+
+}
+
+.Main_Wrap {
+    display: flex;
+}
+
+.PriceList span {
+    font-size: 14px;
+    padding: 0 341px;
+}
+
+.Cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .PriceList {
+        border: 1px solid black;
+        border-radius: 40px;
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .PriceList span {
+        font-size: 10px;
+        padding: 0 103px !important;
+    }
+
+    .Main_Wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+    .PriceList {
+        border: 1px solid black;
+        border-radius: 40px;
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .PriceList span {
+        font-size: 10px;
+        padding: 0 103px;
+    }
+
+    .Main_Wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 1025px) {
+    .PriceList {
+        border: 1px solid black;
+        border-radius: 40px;
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .PriceList span {
+        font-size: 10px;
+        padding: 0 180px;
+    }
+
+    .Main_Wrap {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .PriceList {
+        border: 1px solid black;
+        border-radius: 40px;
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .Main_Wrap {
+        display: flex;
+    }
+
+}
