@@ -13,7 +13,6 @@
 
 .section-1 .card-wrapper {
     width: 47%;
-
 }
 
 .SecondPage .card-wrapper {
@@ -36,9 +35,7 @@
     width: 30%;
 }
 
-.image-wrapper {
-
-}
+.image-wrapper {}
 
 .image-wrapper img {
     max-width: 100%;
@@ -65,7 +62,7 @@
     text-align: left;
 }
 
-.mid-section > span {
+.mid-section>span {
     color: #d5d5d5;
     font-weight: 500;
 }
@@ -154,10 +151,14 @@
     width: 12px;
     height: 12px;
     z-index: 1;
-    transform: rotate(-49deg);
+    /* transform: rotate(-49deg);
     transform-origin: 74% 6px;
+    color: #f9f9f9; */
+    transform: rotate(-49deg);
+    transform-origin: 74% 49%;
+    font-size: 9px;
     color: #f9f9f9;
-
+    display: grid;
 }
 
 .card-wrapper .TextSpans {
@@ -165,10 +166,15 @@
     position: absolute;
     -ms-transform: rotate(45deg);
     -ms-transform-origin: 20% 40%;
-    transform: rotate(-49deg);
+    /* transform: rotate(-49deg);
     transform-origin: -79% 15%;
     font-size: 9px;
+    color: #f9f9f9; */
+    transform: rotate(-49deg);
+    transform-origin: -76% 20%;
+    font-size: 9px;
     color: #f9f9f9;
+    display: grid;
 }
 
 .Share_Icon {
@@ -198,7 +204,8 @@
     color: red;
 }
 
-.model, .card-sub-heading {
+.model,
+.card-sub-heading {
     TEXT-ALIGN: left;
     font-size: 18px;
     font-weight: 500;
@@ -215,7 +222,6 @@
 
 .star-box {
     color: #e7b74f;
-
 }
 
 .Icons {
@@ -230,12 +236,11 @@
     font-size: 14px;
     padding-left: 8px;
 }
+
 @media only screen and (max-width: 600px) {
     .section-1 .card-wrapper {
         width: 90%;
-
     }
-
     .SecondPage .card-wrapper {
         width: calc(33% - -257px) !important;
     }
@@ -244,9 +249,7 @@
 @media only screen and (max-width: 765px) {
     .section-1 .card-wrapper {
         width: 90%;
-
     }
-
     .SecondPage .card-wrapper {
         width: calc(33% - -200px);
     }
@@ -255,9 +258,7 @@
 @media only screen and (max-width: 1025px) {
     .section-1 .card-wrapper {
         width: 90%;
-
     }
-
     .SecondPage .card-wrapper {
         width: calc(33% - -19px);
     }
@@ -268,14 +269,13 @@
         font-size: 20px;
         font-weight: 700;
     }
-
     .card-wrapper .TextSpans {
         padding: 1px;
         position: absolute;
         -ms-transform: rotate(45deg);
         -ms-transform-origin: 20% 40%;
         transform: rotate(-50deg);
-        transform-origin: -66% -218%;
+        transform-origin: -171% -218%;
         font-size: 9px;
         color: #f9f9f9;
     }

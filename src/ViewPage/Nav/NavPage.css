@@ -1,0 +1,52 @@
+.Phone_Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.Top_Nav_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 0 54px;
+}
+
+.Login_Icon_Wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.Sign_Icon_Wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.auto_wrap {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 46px;
+}
+
+@media only screen and (max-width: 765px) {
+    .Top_Nav_icon {
+       font-size: 10px;
+    }
+    .auto_wrap{
+        gap: 20px;
+    }
+    .Header_Wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+

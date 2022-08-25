@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import {FaSearch} from "react-icons/fa";
-import MainPages from "./mainPages";
+import MainPages from "./MainPages";
 
 
 const Header = () => {
