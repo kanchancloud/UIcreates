@@ -9,11 +9,11 @@ const Header = () => {
         <>
             <div className="container Header_Wrap">
                 <div className="Image_Wrap">
-                    <img src="image (12).png" className="Logo"/>
+                    <img src="image (12).png" alt={"img"} className="Logo"/>
                 </div>
 
                 <div className="search-container">
-                    <form action="/action_page.php">
+                    <form>
                         <input type="text" placeholder="Search.." name="search"/>
                         <button type="submit"><FaSearch/></button>
                     </form>

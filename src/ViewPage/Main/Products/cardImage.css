@@ -244,6 +244,10 @@
     .SecondPage .card-wrapper {
         width: calc(33% - -257px) !important;
     }
+    .card-wrapper .left-container,
+    .card-wrapper .right-container {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -257,7 +261,7 @@
 
 @media only screen and (max-width: 1025px) {
     .section-1 .card-wrapper {
-        width: 90%;
+        width: 124%;;
     }
     .SecondPage .card-wrapper {
         width: calc(33% - -19px);

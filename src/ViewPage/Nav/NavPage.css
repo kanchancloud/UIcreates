@@ -47,6 +47,10 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+    .Top_Nav_icon {
+
+        padding: 0 0;
+    }
 
 }
 

@@ -1,7 +1,7 @@
 .breadcrumb {
     display: flex;
     align-items: center;
-    padding-left: 54px;
+    margin-left: 54px;
 }
 .breadcrumb li {
     display: flex;
@@ -27,7 +27,7 @@
 .sideBar_Wrapperss{
     display: flex;
     flex-direction: row;
-    padding: 20px 50px;
+    margin: 20px 0px;
 }
 .PriceBar{
     padding: 0px 0px 0px 50px;
@@ -44,5 +44,10 @@
     }
     .PriceBar{
         padding: 0px 0px 0px 0px;
+    }
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
     }
 }
